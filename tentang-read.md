@@ -63,3 +63,4 @@ Membuat query untuk menampilkan data yang diminta yang disimpan pada objek array
 ```
 Pada fungsi read() tersebut berisi perintah untuk membuat perintah query sql untuk menampilkan seluruh data pada tabel mahasiswa, ```$this->table_name;``` berisi nama table yang digunakan yaitu tabel yang telah dideklarasikan ```private $table_name = "mahasiswa";```. Query mengembalikan nilai dari eksekusi perintah.
 * Hasil eksekusi untuk membaca data mahasiswa dari tools Postman sebagai berikut :
+![Hasil Read()](https://github.com/slamet789/restfulapi/blob/tentang-read/hasil-read.png "Hasil membaca data mahasiswa")
