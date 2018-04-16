@@ -4,9 +4,10 @@ REST (REpresentational State Transfer) merupakan standar arsitektur komunikasi b
 * PUT, digunakan untuk menciptakan resource baru
 * DELETE, digunakan untuk menghapus resource
 * POST, digunakan untuk memperbarui resource yang ada atau membuat resource baru
-* OPTIONS, digunakan untuk mendapatkan operasi yang disupport pada resource
-<br>
+* OPTIONS, digunakan untuk mendapatkan operasi yang disupport pada resource.
+
 Pada percobaan pembuatan Restful Api ini menggunakan database MySql, tabel yang dibuat bernama mahasiswa dengan 4 buah field/kolom yaitu: field nim, nama, angkatan dan jurusan. Untuk langkah pertama, dibuatlah file database.php untuk melakukan koneksi ke database MySql. Berikut script database.php :
+
 ```
 <?php
 class Database{
